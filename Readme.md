@@ -1,12 +1,12 @@
 # AI Final Project: Sign Language Recognition
 
-This repository contains the final project for the AI course in my graduation. The goal of this project is to develop a system that can recognize sign language using machine learning techniques.
+Este repositório contém o projeto final do curso de IA na minha graduação. O objetivo deste projeto é desenvolver um sistema capaz de reconhecer linguagem de sinais utilizando técnicas de Redes Neurais Convolucionais.
 
 ## Project Overview
 
-The project aims to create a model that can accurately recognize and interpret sign language gestures. This involves:
+Neste projeto, utilizamos camadas convolucionais para desenvolver um modelo de reconhecimento de linguagem de sinais. O dataset utilizado foi obtido no Kaggle, contendo imagens representando o alfabeto em Língua de Sinais Americana (ASL).
 
-- Collecting and preprocessing sign language data
-- Training a machine learning model to recognize signs
-- Evaluating the model's performance
-- Developing an application to demonstrate the model's capabilities
+Com este conjunto de dados, foi treinado um modelo de aprendizado profundo utilizando técnicas de redes neurais convolucionais. Após o treinamento, o modelo foi testado com dados separados para validação, alcançando bons resultados em termos de precisão e eficácia na identificação das diferentes letras do alfabeto em linguagem de sinais.
+
+DATASET DISPONIVEL EM: https://www.kaggle.com/datasets/grassknoted/asl-alphabet/data
+Training data used available in: https://www.kaggle.com/datasets/grassknoted/asl-alphabet/data
